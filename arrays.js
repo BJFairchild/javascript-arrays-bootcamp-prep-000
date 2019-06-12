@@ -19,5 +19,5 @@ function destructivelyAddElementToEndOfArray(food, x) {
 }
 
 function accessElementInArray(array, index) {
-  console.log(fruit[x]);
+  return[array, index]
 }
