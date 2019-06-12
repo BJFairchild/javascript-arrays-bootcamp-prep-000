@@ -18,7 +18,6 @@ function destructivelyAddElementToEndOfArray(food, x) {
   return food
 }
 
-function accessElementInArray(fruit, x) {
-  var fruit = ["apple", "pear", "banana", "orange", "plum", "peach", "watermelon"];
+function accessElementInArray(array, index) {
   console.log(fruit[x]);
 }
