@@ -9,4 +9,12 @@ function destructivelyAddElementToBeginningOfArray(x) {
   return food
 }
 
-function addElementToEndOfArray(x)
+function addElementToEndOfArray(x) {
+  return [...food, x];
+}
+
+function destructivelyAddElementToEndOfArray(x) {
+  food.push(x);
+  return food
+}
+
